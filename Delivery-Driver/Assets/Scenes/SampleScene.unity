@@ -1054,7 +1054,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9433962, g: 0.13705942, b: 0.72547036, a: 1}
+  m_Color: {r: 0.1372549, g: 0.94509804, b: 0.15023126, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2208,7 +2208,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9433962, g: 0.13705942, b: 0.72547036, a: 1}
+  m_Color: {r: 0.1372549, g: 0.94509804, b: 0.15023126, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2947,7 +2947,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9433962, g: 0.13705942, b: 0.72547036, a: 1}
+  m_Color: {r: 0.1372549, g: 0.94509804, b: 0.15023126, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3233,6 +3233,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeff601514471f94794cd228d30b16ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clrhasPackageColor:
+    serializedVersion: 2
+    rgba: 4282705684
+  clrnoPackageColor:
+    serializedVersion: 2
+    rgba: 4294967295
   fldestroyDelay: 0.5
 --- !u!61 &1774177470
 BoxCollider2D:
